@@ -7,30 +7,34 @@
 - presenters
 - structure of the day
 - topics, breaks, logistics
-- check if pre are met
+- create Power Platform developer account
 
 ### Prefacing the day
 
-- why does performance, accessibilty and good design matter? - 15 minutes
-- some slides/ bad examples
+- Why does performance, accessibilty and good design matter?
+- Some bad examples
 
-### start with data
+### Start with data
 
-- task: import sample data, import to SP list, import to DV - 20 minutes
-- intro to DV - what differentiates it from SP list? - 10 minutes
-- intro to why Excel is evil - 5 minutes
-- explanation: how to patch data
-- tasks: patch data, use monitor or network tab in dev tools - compare - 20 minutes
-- explanation, why DV is so fast, and on prem is slow - 20 minutes
+- Intro to DV - what differentiates it from SP list?
+- Why Excel is evil
+- Why is Dataverse is so fast, and on prem is slow?
+
+### COFFEE BREAK
 
 ### good coding practices
 
-- collections (locally) - 5 minutes
-    task: patch Datasource or patch collection - 10 minutes
+- collections (locally)
 - concurrence - 5 minutes
-    task: compare time with or without concurrence - 5 minutes
-- use galleries when repeat - 10 minutes
-    task: create the stepper dots and implement that pages advance on modal cmp - 25 minutes
+- use galleries when repeat
+- use components when not working with galleries
+
+### components
+
+- intro to components
+- How to plan components
+- Build a modal window component
+- Build a swipe right component
 
 ### Intro to accessibility and how to make apps accessible by design - 20 minutes
 
