@@ -1,4 +1,4 @@
 # Preparations
 
-* Download the                                                                                     solution from here:
+* Download the solution from here:
 * Import the solution in your environment
