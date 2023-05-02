@@ -62,7 +62,7 @@
 
 ## Responsive Apps that look good on any screen
 
-- intro to responsive screens (containers, v,h, c, breakpoints, label:  App.width) - 15 minutes
+- intro to responsive screens (containers, breakpoints, label:  App.width) - 15 minutes
 - task: create a screen with containers based on a screenshot (try to replicate this!) - test everything on different screen sizes (dev tools) - 15 minutes
 
 ## COFFEEBREAK
