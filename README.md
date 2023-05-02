@@ -62,8 +62,8 @@
 
 ## Responsive Apps that look good on any screen
 
-- intro to responsive screens (containers, breakpoints, label:  App.width) - 15 minutes
-- task: create a screen with containers based on a screenshot (try to replicate this!) - test everything on different screen sizes (dev tools) - 15 minutes
+- intro to responsive screens (containers, breakpoints, label:  App.width)
+- task: create a screen with containersthis!
 
 ## COFFEEBREAK
 
@@ -71,7 +71,7 @@
 
 - reduce content on the screen, legible, supplement text with icons, separate content to give visual cues
 - final task: give them an awfully designed screen: how many mistakes do you find? 15 minutes
-- can you fix them? - 40 minutes
+- can you fix them?
   - missing AccessibleLabel
   - too much content
   - bad contrast ratio

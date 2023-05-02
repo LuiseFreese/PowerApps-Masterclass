@@ -4,8 +4,10 @@
 
 1. Define input properties for the colors you want to use: `primaryColor`, `secondaryColor`, `accentColor`
 2. Assign your color palette values to them as default values.
+
 ![custom properties](/assets/images/cmp_props.png)
-3. Create also input properties for radius of buttons, standard width or height of controls you use, and more. The goal is to avoid hard coded values as you don't want to go over the entire component over and over just because someone requests 'just a tiny change' 🙃
+
+1. Create also input properties for radius of buttons, standard width or height of controls you use, and more. The goal is to avoid hard coded values as you don't want to go over the entire component over and over just because someone requests 'just a tiny change' 🙃
 
 ## Behavior properties - make your component interact with the app
 
