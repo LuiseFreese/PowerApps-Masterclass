@@ -31,7 +31,7 @@ Some controls in Power Apps do not have an auto height property, which means tha
 ### Understand the magic
 
 1. We utilize the auto height property of the text label and hook it to the **Height** property of the text input. The text label will get exactly the text in the Font, Size, FontWeight of the textinput, but as we set the **Color** to `Transparent`, it won't show up.
-2. For the Width of the text input, we reference the width of the component itself so that we can make the textinput as wide as necessary by adjusting the size of the component instance in an app
+2. For the **Width** of the text input, we reference the **Width** of the component itself so that we can make the textinput as wide as necessary by adjusting the size of the component instance in an app
 3. The `Max(42, lbl_autoHeightHelper.Height)` for the **Height** of the textinput ensures that we always have 42 as a minimum Height and the **Height** of the text label (which has auto height enabled) as maximum Height
 
 ![auto height textinput component](/assets/images/textinputautoheight.png)
