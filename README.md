@@ -1,6 +1,13 @@
 # PowerApps-Masterclass Agenda
 
-## Intro & logistics
+Agenda still  tbd - for now only
+
+- [practical exercise prep](/practical%20exercises/task0%20-%20preparations.md)
+- [practical exercises task 1](/practical%20exercises/task1%20-%20build%20a%20modal%20window%20component.md)
+- [practical exercise task 2](/practical%20exercises/task2%20-%20build%20a%20swipe%20right%20component.md)
+- [practical exercise task 3](/practical%20exercises/task3%20-%20build%20an%20autoheight%20textinput%20component.md)
+
+<!-- ## Intro & logistics
 
 - presenters
 - structure of the day
@@ -79,4 +86,4 @@
   - modal window that is not a component
   - no collections used
   - hard coded values
-- present if you feel confident
+- present if you feel confident -->
