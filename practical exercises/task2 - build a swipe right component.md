@@ -12,15 +12,17 @@
 | **swipeWidth**  | Number            | `250`                   |
 | **primaryColor**      | Color             | `ColorValue("#c0c0c0")` |
 | **secondaryColor**    | Color             | `RGBA(116,116,116,1)` |
-| **accentColor**    | Color             | `RosyBrown` |
-| **textColor**         | Color             | `White`                 |
+| **accentColor**    | Color             | `Color.RosyBrown` |
+| **textColor**         | Color             | `Color.White`                 |
 | **backgroundText1**        | Text              | `"swipe to approve"`                |
 | **backgroundText2**        | Text              | `"thank you"`                |
-| **chevronColor1**         | Color             | `White`                 |
-| **chevronColor2**        | Color             | `LightGray`                 |
- **chevronColor3**        | Color             | `DarkGray`                 |
+| **chevronColor1**         | Color             | `Color.White`                 |
+| **chevronColor2**        | Color             | `Color.LightGray`                 |
+ **chevronColor3**        | Color             | `Color.DarkGray`                 |
   **icon**        | Image             | `Icon.Heart`                 |
-| **Onchange**          | Behavior(Text)    | (needs number parameter called `valueslider`)|
+| **onSlide**          | Event (Text)    | (needs number parameter called `valueslider`)|
+
+![onChange property](../assets/images/onChange%20property.png)
 
 2. Set the **Width** property of the component to `cmp_SwipeRight.swipeWidth+10` and the **Height** property to `cmp_SwipeRight.swipeHeight+20`
 
@@ -41,9 +43,10 @@ You guessed it - we need a slider control.
 1. Add a horizontal slider control, set its **Min** to `0` and its **Max** to `100`, **Default** is `0` as well
 2. Set its **HandleSize** to **200**
 3. Set **X** to `btn_background_1.X+5` and **Y** to `0`
-4. Set **Width** to `cmp_SwipeRight.swipeWidth-btn_swipe_1.Width-12` and **Height** to `Parent.Height`
-5. Set _all_ color values to `Transparent` - this control should be invisible to users - still  resist that urge to set the **Visible** property to `false` - users can't interact with the control anymore if you do that
-6. Set the **OnChange** property to `If(Self.Value<100, Set(isActionSuccess, false), Set(isActionSuccess, true)); cmp_SwipeRight.Onchange(Self.Value)` - We determine if a user has (completely) swiped right and output this into a variable.
+4. Set **Width** to `cmp_SwipeRight.swipeWidth-btn_swipe_1.Width-20` and **Height** to `Parent.Height`
+💡 Again, don't worry, this will give an error but we will fix that. If this drive you nuts right now, go ahead and insert a button and rename it to `btn_swipe_1`. 
+5. Set _all_ color values og the slider  to `Transparent` - this control should be invisible to users - still  resist that urge to set the **Visible** property to `false` - users can't interact with the control anymore if you do that
+6. Set the **OnChange** property to `If(Self.Value<100, Set(isActionSuccess, false), Set(isActionSuccess, true)); cmp_SwipeRight.onChange(Self.Value)` - We determine if a user has (completely) swiped right and output this into a variable.
 
 ### swipe button
 
@@ -121,4 +124,4 @@ Make sure that all controls sit like this:
 
 Now let's add the component to our app and play around with the appearance - as we set a ton of custom properties for colors, sizes, and icon, we can easily adjust the look of this component. You can try out for example to change the colors of the chevrons depending on the Fill color of  your swipe button or different icons  to determine success and of course different texts.
 
-Still one thing is missing - we need to know when our user swiped, right? To do so, set the (custom) **Onchange** property of the component to `UpdateContext({loc_isSuccessValue: valueslider})` - This way we set a local variable that returns a `100` if the slider was swiped completely.
+Still one thing is missing - we need to know when our user swiped, right? To do so, set the (custom) **onSlide** property of the component to `Set(isCompleted, slidervalue)` - This way we set a local variable that returns a `100` if the slider was swiped completely.
