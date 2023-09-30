@@ -12,21 +12,21 @@ To make things work smoothly, first [create a new profile in Edge](https://www.m
 2. Sign in with either your work/school email or your MIcrosoft account.
 3. Select **Join now**
 4. Fill out the form
-![Devprogram form](devprogram-form.png)
+![Devprogram form](/assets/images/devprogram-form.png)
 5. Select **Next**
-6. ![purpose of Dev program](devprogram-purpose.png)
+6. ![purpose of Dev program](/assets/images/devprogram_purpose.png)
 7. Select **Next**
 8. Select one or more interest areas
-![Alt text](devprogram-areas.png)
+![Alt text](/assets/images/devprogram-areas.png)
 9. Select **Save**
 
 ## Configure your tenant
 
 1. Choose **Instant sandbox**
 2. Select **Next**
-![sandbox](devprogram-sandbox.png)
+![sandbox](/assets/images/devprogram-sandbox.png)
 3. Fill out the form - take note of the admin email address and remember your password!
-![sandbox form](devprogram-sandbox-form.png)
+![sandbox form](/assets/images/devprogram-sandbox-form.png)
 4. Add your mobile phone to get a verification code that you can then enter
 5. Select **Set up**
 
